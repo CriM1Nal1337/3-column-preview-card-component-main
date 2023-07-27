@@ -15,8 +15,6 @@ body,
 .container {
   width: 83.8rem;
   height: 45.5rem;
-  border-radius: 1rem;
-  background-color: black;
 }
 
 .cars {
@@ -50,11 +48,13 @@ body,
 
 .cars .lern-more {
   background-color: var(--Verylightgray);
-  border: none;
+  border: 2px solid var(--Verylightgray);
   border-radius: 3rem;
   padding: 1.2rem 2.6rem;
   font-size: 1.5rem;
   font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 .cars.sedan {
@@ -67,12 +67,22 @@ body,
     color: var(--Brightorange);
 }
 
+.cars.sedan .lern-more:hover{
+    background-color: var(--Brightorange);
+    color: var(--Verylightgray);
+}
+
 .cars.suv{
     background-color: var(--Darkcyan);
 }
 
 .cars.suv .lern-more{
     color: var(--Darkcyan);
+}
+
+.cars.suv .lern-more:hover{
+    background-color: var(--Darkcyan);
+    color: var(--Verylightgray);
 }
 
 .cars.luxury{
@@ -83,4 +93,9 @@ body,
 
 .cars.luxury .lern-more{
     color: var(--Verydarkcyan);
+}
+
+.cars.luxury .lern-more:hover{
+    background-color: var(--Verydarkcyan);
+    color: var(--Verylightgray);
 }

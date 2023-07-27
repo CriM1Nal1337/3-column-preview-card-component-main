@@ -1,0 +1,39 @@
+@media (max-width: 810px) {
+  body {
+    height: 137rem;
+  }
+  .container {
+    flex-direction: column;
+    width: 90vw;
+    height: 125rem;
+    padding: 2rem;
+  }
+
+  .cars {
+    padding: 4rem;
+  }
+
+
+  .cars .title {
+    font-size: 3.7rem;
+  }
+
+  .cars .paragrafh {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .cars.sedan {
+    background-color: var(--Brightorange);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+  }
+
+  .cars.luxury {
+    background-color: var(--Verydarkcyan);
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+}

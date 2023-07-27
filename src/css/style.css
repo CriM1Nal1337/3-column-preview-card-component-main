@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+body {
+  height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body,
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 83.8rem;
+  height: 45.5rem;
+  border-radius: 1rem;
+  background-color: black;
+}
+
+.cars {
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+}
+
+.cars .logo{
+    margin-bottom: 3rem;
+}
+
+.cars .title {
+  color: var(--Verylightgray);
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.cars .paragrafh {
+  color: var(--Transparentwhite);
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: left;
+  padding: 0.4rem;
+  line-height: 2.3rem;
+  margin-bottom: 7rem;
+}
+
+.cars .lern-more {
+  background-color: var(--Verylightgray);
+  border: none;
+  border-radius: 3rem;
+  padding: 1.2rem 2.6rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.cars.sedan {
+  background-color: var(--Brightorange);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.cars.sedan .lern-more{
+    color: var(--Brightorange);
+}
+
+.cars.suv{
+    background-color: var(--Darkcyan);
+}
+
+.cars.suv .lern-more{
+    color: var(--Darkcyan);
+}
+
+.cars.luxury{
+    background-color: var(--Verydarkcyan);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.cars.luxury .lern-more{
+    color: var(--Verydarkcyan);
+}
